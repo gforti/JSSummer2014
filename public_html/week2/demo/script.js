@@ -4,7 +4,7 @@
     
     function submit() {
         
-        if ( email.value === '' ) {
+        if ( !email.value.length ) {
             console.log('email is empty');
         } else {
             console.log('email is not empty');
@@ -19,4 +19,4 @@
         console.log(str);
    }
 
-testing('helloooooooooooo');
+//testing('helloooooooooooo');
