@@ -28,7 +28,7 @@ html, body {
 	
 	}
 	
-	input[type=button] {
+	input[type=button], button {
 		border: 1px solid #6E329D;
 		border-radius : 25px;
 		color: #fff;
@@ -45,7 +45,7 @@ html, body {
 		border: 2px solid lightblue;
 	}
 	
-	input[type=button]:hover {
+	input[type=button]:hover, button:hover {
 		background: linear-gradient(to right, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C */	
 	}
 	
