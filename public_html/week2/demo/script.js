@@ -1,7 +1,17 @@
 
     var email = document.getElementById('email');
     
-    console.log(email.value);
+    
+    function submit() {
+        
+        if ( email.value === '' ) {
+            console.log('email is empty');
+        } else {
+            console.log('email is not empty');
+        }
+        
+    }
+    
     
     
     // method
@@ -9,4 +19,4 @@
         console.log(str);
    }
 
-testing('hello');
+testing('helloooooooooooo');
