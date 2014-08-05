@@ -14,3 +14,29 @@ Requirements:
  */
 
 
+var ads = [];
+             
+                         
+ads.push({ 
+    "title": 'this is cool1', 
+    "desc" : 'this is cool1 because I can use it' 
+});
+ads.push({ 
+    "title": 'this is cool2', 
+    "desc" : 'this is cool2 because I can use it' 
+});
+ads.push({ 
+    "title": 'this is cool1', 
+    "desc" : 'this is cool1 because I can use it' 
+});
+ads.push({ 
+    "title": 'this is cool2', 
+    "desc" : 'this is cool2 because I can use it' 
+});
+
+ads.push({ 
+    "title": 'this is cool2', 
+    "desc" : 'this is cool2 because I can use it' 
+});
+
+
