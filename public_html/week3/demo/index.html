@@ -56,15 +56,35 @@ and open the template in the editor.
 
              */
             
+            console.clear();
+            
+            var num1 = 5.53453;
+            var num2 = 10.34534;
+            
+            var result = Math.min(num1,num2);
+            
+           // parseInt(num1, 10);
             
             
-             console.clear();
+            console.log(parseInt(result,10));
+             
            console.log(Math.random());
            console.log(Math.round(1.6));
            console.log(( Math.random()*10+1));
            console.log(( Math.random()*10+1));
            console.log(( Math.random()*10+1));
+           
            console.log(Math.floor( Math.random()*10+1));
+           
+           
+           function rand( max ){
+               return Math.floor( Math.random()*max );
+           }
+           console.clear();
+           console.log( rand(100) );
+           
+           
+           
             
         </script>
     </body>
