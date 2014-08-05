@@ -7,13 +7,14 @@ Requirements:
 2. Use Math.random() with the array.length to get a random index.
 3. Display the ad using innerHTML.
 4. Replace the document.title with the ad followed by three periods …
+    hint: str + '...'
 5. Please add comments to explain how the code works and what it’s doing.
    Hint: No need to go crazy, just general things on the flow, one line
          comments are fine.
 
  */
 
-
+// 
 var ads = [];
              
                          
