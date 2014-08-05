@@ -46,14 +46,20 @@ and open the template in the editor.
                          
              var myArr = [];
              
-             myArr.push({});
+                         
+             myArr.push({ 
+                 "title": 'this is cool1', 
+                 "desc" : 'this is cool1 because I can use it' 
+             });
+             myArr.push({ 
+                 "title": 'this is cool2', 
+                 "desc" : 'this is cool2 because I can use it' 
+             });
              
-             myArr.push( { "title": 'this is cool', "desc" : 'this is cool because I can use it' });
+            // console.log(myArr[1].desc);
              
-             console.log(myArr[0]);
-             
-             //console.log(myArr[0].title);
-             //console.log(myArr[0].desc);
+             console.log(myArr[1].title);
+             console.log(myArr[1].desc);
              
             
              
