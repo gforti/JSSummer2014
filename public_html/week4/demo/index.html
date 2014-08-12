@@ -8,14 +8,18 @@
     <body>
         <div>TODO write content</div>
         
-        <input type="button" id="btn" value="submit" onclick="submitForm();" />
+        <input type="button" id="btn" value="submit" />
         
         <script type="text/javascript">
             var submitBtn = document.getElementById('btn');
-                submitBtn.addEventListener('click', changeBGColor);
+                submitBtn.addEventListener('click', call1);
+                submitBtn.addEventListener('click', call2);
             
-             function submitForm() {
-                 console.log('submmited');
+             function call1() {
+                 console.log('call 1');
+             }
+              function call2() {
+                 console.log('call 2');
              }
             
             var data = {
