@@ -18,7 +18,11 @@
                 console.log(data.hello);
                            
             function changeBGColor() {
-                document.body.style.backgroundColor = 'black';
+                if ( document.body.style.backgroundColor === 'black') {
+                    document.body.style.backgroundColor = 'white';
+                } else {
+                    document.body.style.backgroundColor = 'black';
+                }
             }
             
            // changeBGColor();
