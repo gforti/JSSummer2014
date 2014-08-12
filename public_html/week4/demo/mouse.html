@@ -15,8 +15,13 @@ and open the template in the editor.
         
         <script type="text/javascript">
             
+            var data = {
+              "mouseX" : []  
+            };
             
-            
+            function trackMouse(e) {
+                data.mouseX.push(e.clientX);
+            }
             
             
         </script>
