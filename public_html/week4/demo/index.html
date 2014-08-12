@@ -10,6 +10,22 @@
         
         <script type="text/javascript">
             
+            var data = {
+                "hello" : 'hey hows it going',
+                "callme" : false
+            };
+            
+                console.log(data.hello);
+                           
+            function changeBGColor() {
+                document.body.style.backgroundColor = 'black';
+            }
+            
+           // changeBGColor();
+            
+            document.addEventListener('mousemove', changeBGColor);
+                
+                
             
         </script>
     </body>
