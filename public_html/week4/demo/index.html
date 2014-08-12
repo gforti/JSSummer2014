@@ -8,9 +8,11 @@
     <body>
         <div>TODO write content</div>
         
-        <input type="button" value="submit" onclick="submitForm();" />
+        <input type="button" id="btn" value="submit" onclick="submitForm();" />
         
         <script type="text/javascript">
+            var submitBtn = document.getElementById('btn');
+                submitBtn.addEventListener('click', changeBGColor);
             
              function submitForm() {
                  console.log('submmited');
@@ -33,9 +35,9 @@
             
            // changeBGColor();
             
-            document.addEventListener('click', changeBGColor);
+           // document.addEventListener('click', changeBGColor);
                         
-            window.addEventListener('resize', changeBGColor);
+           // window.addEventListener('resize', changeBGColor);
                 
             
             
