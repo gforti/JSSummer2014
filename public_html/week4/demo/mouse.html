@@ -16,6 +16,11 @@ and open the template in the editor.
         <input type="text" id="email" value="" />
         
         <script type="text/javascript">
+            var email = document.getElementById('email');
+                email.addEventListener('blur', saveEmail);
+            function saveEmail() {
+                data.email =  email.value;
+            }
             
             var data = {
               "mouseX" : [],
