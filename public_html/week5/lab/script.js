@@ -4,8 +4,7 @@
  
 1. In your HTML make a fname and lname fields.
 2. Using regular expression to validate your form.
-    a. First name must be a noSpaceAlphaValidate
-    b. Last name is just a spaceAlphaValidate
+    a. Full name must be a SpaceAlphaValidate, only characters and spaces allowed
     c. Email must start with characters, have a @ symbol, have another set 
        of characters have a period and end with 3 characters.
     d. Comments must not have any html.  Search for characters that have <> 
