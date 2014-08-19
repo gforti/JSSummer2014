@@ -10,6 +10,10 @@
     d. Comments must not have any html.  Search for characters that have <> 
        wrapped around it.
 
+3.  Once all the data is valid hide the form using [object].style.display='none'
+    Display a div that will show the data entered.  You can add a div to the page
+    and have it display:none to start.
+
  */
 
 
