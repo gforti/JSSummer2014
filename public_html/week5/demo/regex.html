@@ -27,6 +27,20 @@
                 console.log('test@test.com is NOT valid email');
             }
             
+            function demoMatch() {
+                var email = document.getElementById('email');
+                    
+            
+                    if ( emailRegex.test(email.value) ){
+                        console.log(email.value+' is valid');
+                    } else {
+                        console.log(email.value+' is Not valid');
+                    }
+                
+            }
+            
+            document.getElementById('test').addEventListener('click', demoMatch);
+            
                         
             
         </script>
