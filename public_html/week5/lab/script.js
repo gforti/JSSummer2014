@@ -30,7 +30,7 @@ function submitform() {
 
         if ( !fname.value.length ) {
                 console.log("Fname needs a length");
-        } else if ( noSpaceAlphaValidate( fname.value ) == false ) {
+        } else if ( noSpaceAlphaValidate( fname.value ) === false ) {
                 console.log("Fname needs Alpha chars");
         } else {
                 console.log("Fname is good");
