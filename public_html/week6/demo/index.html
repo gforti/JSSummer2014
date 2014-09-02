@@ -21,6 +21,22 @@
             //http://canvas.site40.net/demopage.html
             //http://www.000webhost.com/free-php-hosting
 			
+            /* 
+                https://developer.mozilla.org/en-US/docs/AJAX
+                AJAX stands for Asynchronous JavaScript and XML.  It allows us to make a call'
+                to a server( like accessing another page) without having to leave or refresh
+                the current page.  
+    
+                In order to create a request object, we can store the object in a variable like so.
+                var xhr = new XMLHttpRequest();
+                This will create an AJAX object that will have properties and methods(functions) we
+                can use.
+    
+                To read more about AJAX go here
+                https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started
+             */
+                        
+                        
 		// XML HTTP Request
 		var xhr = new XMLHttpRequest();
 		var content = document.getElementById('content');  
@@ -30,13 +46,13 @@
 		
                 showResults.addEventListener('click',makeAJAXCall);
 		
+               
 		function callback() {
 			var response = xhr.responseText;  
 						
 			content.innerHTML += response;
                         step++;
                         
-                       
 
 		}
 		
@@ -60,7 +76,10 @@
 		
                 
 		
-
+                /*
+                 * This is related to HTTP and not JavaScript.  These are the status codes a server 
+                 * might send back.
+                 */
 		
 		
 		var statusCodes = {
