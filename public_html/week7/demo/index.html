@@ -17,7 +17,7 @@ and open the template in the editor.
     <body>
         
         <div id="test1">TODO write content1</div>
-        <div class="test2">TODO write content2</div>
+        <div id="test2" class="divclass">TODO write content2</div>
         <div class="">TODO write content3</div>
         
         
@@ -26,13 +26,19 @@ and open the template in the editor.
             
             //document.querySelector()
             
+            
+            $("div");  // getElementsByTagName 
+            $("#test1,#test2"); //ID
+            $(".divclass"); // get by class
+            
+            
             $('#test1').click(function(){
                 $(this).fadeToggle('slow',null,cb);
             });
             
             
             function cb() {
-                $('.test2').css("background-color", 'red')
+                $('.divclass').css("background-color", 'red')
                 .animate(
                     {
                         width: "70%",
