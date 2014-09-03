@@ -33,6 +33,10 @@ and open the template in the editor.
             console.log(dataObj);
             
             
+            var storageData = ( typeof(localStorage.getItem('data')) === 'string' ? localStorage.getItem('data') : '' );
+            
+            console.log(typeof localStorage.getItem('data'));
+            
         </script>
         
     </body>
