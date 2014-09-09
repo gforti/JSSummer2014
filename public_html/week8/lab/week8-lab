@@ -1,0 +1,29 @@
+1. Create a new Lab8.html file under your week 8 folder.  
+    Create a Div and 3 buttons on the page.
+    Button 1: Fade in
+    Button 2: Fade out
+    Button 3: Move Div
+    Make sure to give the buttons ID's so you can add an event handler to them.
+
+2. Create an alert message using the alert function
+(alert is a built in JavaScript global function) 
+that will display after the page has been open for 5 seconds.
+
+3. Use a timer to run a function that will fade out a div.
+hint: Elem.style.opacity
+    opacity can only take a number between 0 and 1
+    To make it simple it should fade in only 10 steps.
+
+4. Create another function that will fade in the same div.
+Hint: you should cancel the previous timer before starting this one
+    
+5.  Create a function that will move the div across the screen.
+hint:  Set the div to be "position: absolute;" in CSS.  
+    in JavaScript you can update the elem.style.left property
+    to increase the position by 10 pixels each time it's run.
+    e.g.
+    var divPosLeft = 0;
+    
+    divPosLeft = divPosLeft + 10;
+    elem.style.left = divPosLeft+"px";
+
