@@ -28,6 +28,20 @@ and open the template in the editor.
              * 
              * */
             
+            var div = document.getElementById('test');
+            var btn = document.getElementById('borderBtn');
+            
+            var borderSize = 1;
+            var borderTimer = setInterval(updateBorder, 200);
+            
+            function updateBorder() {
+                borderSize++;
+                div.style.borderRadius = borderSize + 'px';
+                if ( borderSize > 20 ) {
+                    clearInterval(borderTimer);
+                }
+            }
+            
         </script>
         
     </body>
