@@ -22,7 +22,8 @@ Hint: you should cancel the previous timer before starting this one
 5.  Create a function that will move the div across the screen.
 hint:  Set the div to be "position: absolute;" in CSS.  
     in JavaScript you can update the elem.style.left property
-    to increase the position by 10 pixels each time it's run.
+    to increase the position by 10 pixels in a timer.
+    It can continue even until it exits the screen
     e.g.
     var divPosLeft = 0;
     
