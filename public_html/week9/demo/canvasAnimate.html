@@ -30,15 +30,24 @@
         
         
             function growRect(){
-                
-                ctx.fillRect(x, y-h, 50, h);
+                 
+                if ( h < 300) {
+                    drawClear();
+                    h += 20;
+                    ctx.fillRect(x, y-h, 50, h);
+                    setTimeout(growRect, 100);
+                } else {
+                    moveRect();
+                }
             }
             growRect();
             
             function moveRect(){
                 
+                x += 50;
                 ctx.fillRect(x, y-h, 50, h); // x, y, width, height
             }
+           
             
         </script>
     </body>
