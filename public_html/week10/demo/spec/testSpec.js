@@ -42,7 +42,7 @@ describe("Percent", function() {
      
      it("should be a equal to 0.20", function(){
         val = percent(20);
-        expect(val).toEqual('0.20%');
+        expect(val).toEqual('0.2%');
      });
      
      
