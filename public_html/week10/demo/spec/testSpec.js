@@ -40,13 +40,13 @@ describe("Percent", function() {
   
   
      
-     it("should be a equal to 0.20", function(){
+     it("20 should be a equal to 0.2%", function(){
         val = percent(20);
         expect(val).toEqual('0.2%');
      });
      
      
-     it("should be a equal to 0.20", function(){
+     it("200 should be a equal to 2%", function(){
         val = percent(200);
         expect(val).toEqual('2%');
      });
@@ -58,7 +58,7 @@ describe("Percent", function() {
      */
      
  });
- 
+ /*
  describe("Dollar", function() {
      
     var val;
@@ -80,3 +80,4 @@ describe("Percent", function() {
      });
      
  });
+ */
