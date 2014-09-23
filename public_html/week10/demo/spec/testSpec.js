@@ -58,3 +58,25 @@ describe("Percent", function() {
      */
      
  });
+ 
+ describe("Dollar", function() {
+     
+    var val;
+  
+     it("$10.03 should be a equal to 10", function(){
+        val = dollar('$10.03');
+        expect(val).toEqual(10);
+     });
+     
+     
+     it("$0.03 should be a equal to 0", function(){
+        val = dollar('$0.03');
+        expect(val).toEqual(0);
+     });
+     
+      it("$01.3 should be a equal to 1", function(){
+        val = dollar('$01.3');
+        expect(val).toEqual(1);
+     });
+     
+ });
